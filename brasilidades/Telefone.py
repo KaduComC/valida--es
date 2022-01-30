@@ -1,6 +1,6 @@
 import re
 
-class Telefone():
+class Telefone:
     def __init__(self, telefone):
         if self.valida_telefone(telefone):
             self.numero = telefone
